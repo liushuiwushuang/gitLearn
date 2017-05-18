@@ -41,7 +41,7 @@
         "-EndLine": "14",
         "-Final": "false",
         "-FindBoundary": "false",
-        "-Image": "EqualTest",
+        "-Image": "EqualTest2",
         "-Interface": "false",
         "-Modifiers": "1",
         "-Native": "false",
@@ -58,7 +58,7 @@
         "-Volatile": "false",
         "ClassOrInterfaceBody": {
           "-AnonymousInnerClass": "false",
-          "-BeginColumn": "24",
+          "-BeginColumn": "25",
           "-BeginLine": "3",
           "-EndColumn": "1",
           "-EndLine": "14",
@@ -522,92 +522,179 @@
                           "Expression": {
                             "-BeginColumn": "13",
                             "-BeginLine": "9",
-                            "-EndColumn": "28",
+                            "-EndColumn": "44",
                             "-EndLine": "9",
                             "-FindBoundary": "false",
                             "-SingleLine": "true",
-                            "PrimaryExpression": {
+                            "ConditionalAndExpression": {
                               "-BeginColumn": "13",
                               "-BeginLine": "9",
-                              "-EndColumn": "28",
+                              "-EndColumn": "44",
                               "-EndLine": "9",
                               "-FindBoundary": "false",
                               "-SingleLine": "true",
-                              "PrimaryPrefix": {
+                              "EqualityExpression": {
                                 "-BeginColumn": "13",
                                 "-BeginLine": "9",
-                                "-EndColumn": "23",
+                                "-EndColumn": "24",
                                 "-EndLine": "9",
                                 "-FindBoundary": "false",
+                                "-Image": "!=",
                                 "-SingleLine": "true",
-                                "-SuperModifier": "false",
-                                "-ThisModifier": "false",
-                                "Name": {
-                                  "-BeginColumn": "13",
-                                  "-BeginLine": "9",
-                                  "-EndColumn": "23",
-                                  "-EndLine": "9",
-                                  "-FindBoundary": "false",
-                                  "-Image": "item.equals",
-                                  "-SingleLine": "true"
-                                }
-                              },
-                              "PrimarySuffix": {
-                                "-ArgumentCount": "1",
-                                "-Arguments": "true",
-                                "-ArrayDereference": "false",
-                                "-BeginColumn": "24",
-                                "-BeginLine": "9",
-                                "-EndColumn": "28",
-                                "-EndLine": "9",
-                                "-FindBoundary": "false",
-                                "-SingleLine": "true",
-                                "Arguments": {
-                                  "-ArgumentCount": "1",
-                                  "-BeginColumn": "24",
-                                  "-BeginLine": "9",
-                                  "-EndColumn": "28",
-                                  "-EndLine": "9",
-                                  "-FindBoundary": "false",
-                                  "-SingleLine": "true",
-                                  "ArgumentList": {
-                                    "-BeginColumn": "25",
+                                "PrimaryExpression": [
+                                  {
+                                    "-BeginColumn": "13",
                                     "-BeginLine": "9",
-                                    "-EndColumn": "27",
+                                    "-EndColumn": "16",
                                     "-EndLine": "9",
                                     "-FindBoundary": "false",
                                     "-SingleLine": "true",
-                                    "Expression": {
-                                      "-BeginColumn": "25",
+                                    "PrimaryPrefix": {
+                                      "-BeginColumn": "13",
                                       "-BeginLine": "9",
-                                      "-EndColumn": "27",
+                                      "-EndColumn": "16",
                                       "-EndLine": "9",
                                       "-FindBoundary": "false",
                                       "-SingleLine": "true",
-                                      "PrimaryExpression": {
-                                        "-BeginColumn": "25",
+                                      "-SuperModifier": "false",
+                                      "-ThisModifier": "false",
+                                      "Name": {
+                                        "-BeginColumn": "13",
                                         "-BeginLine": "9",
-                                        "-EndColumn": "27",
+                                        "-EndColumn": "16",
+                                        "-EndLine": "9",
+                                        "-FindBoundary": "false",
+                                        "-Image": "item",
+                                        "-SingleLine": "true"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "-BeginColumn": "21",
+                                    "-BeginLine": "9",
+                                    "-EndColumn": "24",
+                                    "-EndLine": "9",
+                                    "-FindBoundary": "false",
+                                    "-SingleLine": "true",
+                                    "PrimaryPrefix": {
+                                      "-BeginColumn": "21",
+                                      "-BeginLine": "9",
+                                      "-EndColumn": "24",
+                                      "-EndLine": "9",
+                                      "-FindBoundary": "false",
+                                      "-SingleLine": "true",
+                                      "-SuperModifier": "false",
+                                      "-ThisModifier": "false",
+                                      "Literal": {
+                                        "-BeginColumn": "21",
+                                        "-BeginLine": "9",
+                                        "-CharLiteral": "false",
+                                        "-DoubleLiteral": "false",
+                                        "-EndColumn": "24",
+                                        "-EndLine": "9",
+                                        "-FindBoundary": "false",
+                                        "-FloatLiteral": "false",
+                                        "-IntLiteral": "false",
+                                        "-LongLiteral": "false",
+                                        "-SingleCharacterStringLiteral": "false",
+                                        "-SingleLine": "true",
+                                        "-StringLiteral": "false",
+                                        "NullLiteral": {
+                                          "-BeginColumn": "21",
+                                          "-BeginLine": "9",
+                                          "-EndColumn": "24",
+                                          "-EndLine": "9",
+                                          "-FindBoundary": "false",
+                                          "-SingleLine": "true"
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              },
+                              "PrimaryExpression": {
+                                "-BeginColumn": "29",
+                                "-BeginLine": "9",
+                                "-EndColumn": "44",
+                                "-EndLine": "9",
+                                "-FindBoundary": "false",
+                                "-SingleLine": "true",
+                                "PrimaryPrefix": {
+                                  "-BeginColumn": "29",
+                                  "-BeginLine": "9",
+                                  "-EndColumn": "39",
+                                  "-EndLine": "9",
+                                  "-FindBoundary": "false",
+                                  "-SingleLine": "true",
+                                  "-SuperModifier": "false",
+                                  "-ThisModifier": "false",
+                                  "Name": {
+                                    "-BeginColumn": "29",
+                                    "-BeginLine": "9",
+                                    "-EndColumn": "39",
+                                    "-EndLine": "9",
+                                    "-FindBoundary": "false",
+                                    "-Image": "item.equals",
+                                    "-SingleLine": "true"
+                                  }
+                                },
+                                "PrimarySuffix": {
+                                  "-ArgumentCount": "1",
+                                  "-Arguments": "true",
+                                  "-ArrayDereference": "false",
+                                  "-BeginColumn": "40",
+                                  "-BeginLine": "9",
+                                  "-EndColumn": "44",
+                                  "-EndLine": "9",
+                                  "-FindBoundary": "false",
+                                  "-SingleLine": "true",
+                                  "Arguments": {
+                                    "-ArgumentCount": "1",
+                                    "-BeginColumn": "40",
+                                    "-BeginLine": "9",
+                                    "-EndColumn": "44",
+                                    "-EndLine": "9",
+                                    "-FindBoundary": "false",
+                                    "-SingleLine": "true",
+                                    "ArgumentList": {
+                                      "-BeginColumn": "41",
+                                      "-BeginLine": "9",
+                                      "-EndColumn": "43",
+                                      "-EndLine": "9",
+                                      "-FindBoundary": "false",
+                                      "-SingleLine": "true",
+                                      "Expression": {
+                                        "-BeginColumn": "41",
+                                        "-BeginLine": "9",
+                                        "-EndColumn": "43",
                                         "-EndLine": "9",
                                         "-FindBoundary": "false",
                                         "-SingleLine": "true",
-                                        "PrimaryPrefix": {
-                                          "-BeginColumn": "25",
+                                        "PrimaryExpression": {
+                                          "-BeginColumn": "41",
                                           "-BeginLine": "9",
-                                          "-EndColumn": "27",
+                                          "-EndColumn": "43",
                                           "-EndLine": "9",
                                           "-FindBoundary": "false",
                                           "-SingleLine": "true",
-                                          "-SuperModifier": "false",
-                                          "-ThisModifier": "false",
-                                          "Name": {
-                                            "-BeginColumn": "25",
+                                          "PrimaryPrefix": {
+                                            "-BeginColumn": "41",
                                             "-BeginLine": "9",
-                                            "-EndColumn": "27",
+                                            "-EndColumn": "43",
                                             "-EndLine": "9",
                                             "-FindBoundary": "false",
-                                            "-Image": "lab",
-                                            "-SingleLine": "true"
+                                            "-SingleLine": "true",
+                                            "-SuperModifier": "false",
+                                            "-ThisModifier": "false",
+                                            "Name": {
+                                              "-BeginColumn": "41",
+                                              "-BeginLine": "9",
+                                              "-EndColumn": "43",
+                                              "-EndLine": "9",
+                                              "-FindBoundary": "false",
+                                              "-Image": "lab",
+                                              "-SingleLine": "true"
+                                            }
                                           }
                                         }
                                       }
@@ -618,14 +705,14 @@
                             }
                           },
                           "Statement": {
-                            "-BeginColumn": "31",
+                            "-BeginColumn": "47",
                             "-BeginLine": "9",
                             "-EndColumn": "9",
                             "-EndLine": "11",
                             "-FindBoundary": "false",
                             "-SingleLine": "false",
                             "Block": {
-                              "-BeginColumn": "31",
+                              "-BeginColumn": "47",
                               "-BeginLine": "9",
                               "-EndColumn": "9",
                               "-EndLine": "11",
